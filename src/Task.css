@@ -1,0 +1,121 @@
+.main-section{
+    display: flex;
+}
+.hero-section-left{
+    width: 30%;
+    margin-left: 100px;
+}
+.hero-section-left-1{
+    display: flex;
+    margin-top: 100px;
+
+}
+.hero-section-left-1 img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #adadad;
+    border-radius: 50%;
+    
+}
+.hero-section-left-1 p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 9px;
+    color: #424141;
+    font-weight: 300
+}
+.hero-section-left-2 h2{
+    font-size: 27px;
+    margin-top: 7px;
+}
+.hero-section-left-3{
+    display: flex;
+    margin-top: -20px;
+}
+.hero-section-left-3 p{
+    color: #adadad;
+    font-weight: 300;
+    margin-right: 5px;
+    
+}
+.hero-section-left-3 p span{
+    font-size: 17px;
+}
+.hero-section-left-4{
+    display: flex;
+}
+.hero-section-left-4 .open-in-figma{
+    width: 150px;
+    height: 40px;
+    padding: 2px;
+    background-color: #0d99ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+.hero-section-left-4 p{
+    font-size: 28px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 2px;
+    border: 1px solid #adadad;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+}
+.hero-section-right{
+    width: 60%;
+    border: 1px solid #dfdede;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.hero-section-right img{
+    width: 700px;
+    margin-right: 70px;
+    margin-top: 30px
+}
+/* Modal Background */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+/* Fullscreen Image Style */
+.fullscreen-image {
+    width: 300px;
+    max-height: 90%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 480px) {
+    .main-section{
+      display: inline-block;
+      flex-direction: row-reverse;
+    }
+    .hero-section-left{
+        margin-left: 30px;
+    }
+    .hero-section-left-2 h2{
+        font-size: 23px;
+        width: 200px;
+    }
+    .hero-section-left-3 p{
+        width: 200px;
+    }
+    .hero-section-right img{
+        width: 380px;
+    }
+    
+  }

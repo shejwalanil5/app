@@ -1,0 +1,169 @@
+
+.header-section{
+    display: flex;
+    margin-left: 50px;
+    border-bottom: 200px;
+}
+.header-section p{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+hr{
+    height: 3px solid;
+}
+.header-section h3{
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+} 
+.section{
+    margin-left: 50px;
+}
+.innert-section span{
+    color: black;
+    font-weight: bold;
+}
+.inner-section-1 span{
+    color: black;
+    font-weight: bold;
+}
+.inner-section-1 .span{
+    color: #0d99ff;
+}
+
+.cv-section p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cv-img{
+  display: flex;
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 5px;
+  width: 800px;
+  overflow: hidden;
+  
+}
+.cv-img .img-section{
+    width: 50%;
+    margin-right: 100px;
+}
+.cv-img .img-section img{
+    width: 350px;
+    margin-bottom: -5px;
+}
+.zoom-in-out{
+    display: flex;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 700px;
+}
+.zoom-in-out p{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+hr{
+    color: black;
+}
+.zoom-in-out p{
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 300;
+}
+.main-cv-img{
+    display: flex;
+}
+
+.tags{
+  margin-left: 60px;
+  margin-top: -150px;
+}
+
+.tag{
+    display: flex;
+    
+}
+
+.tag p{
+    border: 1px solid rgb(160, 160, 160);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    color: rgb(82, 81, 81);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.social{
+    display: flex;
+}
+.social p{
+    font-size: 18px;
+    border: 1px solid rgb(160, 160, 160);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px
+}
+.figma{
+    display: flex;
+}
+.figma p{
+    color: rgb(82, 81, 81);
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.figma .p{
+    background-color: #0d99ff;
+    padding: 7px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+
+.text-last p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.text-last .span{
+    color: #0d99ff;
+}
+.last p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(160, 160, 160);
+}
+
+@media (max-width: 480px) {
+    .main-cv-img{
+        display: inline-block;
+    }
+    .cv-img{
+        width: 345px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .main-section-2{
+        margin-left: -50px;
+    }
+    .tags{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .zoom-in-out{
+        margin-top: -700px;
+        margin-left: 200px;
+    }
+}

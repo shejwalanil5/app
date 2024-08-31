@@ -1,0 +1,27 @@
+.creator p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.creator{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.banner-img{
+    display: flex;
+}
+.banner-img .banner img{
+    width: 250px;
+    border: 1px solid rgb(160, 160, 160);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.banner-img .banner p{
+    font-size: 16px;
+    font-weight: 300;
+}
+@media (max-width: 480px) {
+    .banner-img{
+        display: inline-block;
+    }
+}

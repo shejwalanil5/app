@@ -1,0 +1,11 @@
+.footer2{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.footer2-text{
+    display: flex;
+}
+.footer2-text p{
+    margin: 5px;
+}
